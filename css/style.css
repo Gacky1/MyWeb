@@ -479,6 +479,12 @@ form textarea {
   width: 40px;
   height: 40px;
 }
+.footer-social a i:hover{
+  background-color: #000;
+  color: #22cf91;
+  transform: scale(1.09);
+  transition: 0.7s;
+}
 .copyright {
   padding: 20px;
   background: var(--main-color);
