@@ -365,7 +365,9 @@ span {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .services-box:hover{
- background-color: #02225a;
+  background-color: #02225a;
+  transform: scale(1.09);
+  transition: 0.8s;
 }
 
 .services-box h3 {
@@ -375,6 +377,7 @@ span {
 }
 .services-box:hover h3{
   color: #fff;
+  transition: 0.8s;
 }
 .services-box .bx {
   padding-top: 2rem;
@@ -383,6 +386,7 @@ span {
 }
 .services-box:hover .bx{
   color: #22cf91;
+  transition: 0.8s;
 }
 .services-box a {
   color: var(--main-color);
@@ -391,6 +395,7 @@ span {
 }
 .services-box:hover a{
   color: #8b8a8f;
+  transition: 0.8s;
 }
 .portfolio-content {
   display: grid;
